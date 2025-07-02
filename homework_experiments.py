@@ -53,7 +53,6 @@ def run_experiment(dataset_path, target_column, learning_rates, batch_sizes, opt
             f.write(f"{r[0]}\t{r[1]}\t{r[2]}\t{r[3]:.4f}\n")
 
 if __name__ == "__main__":
-    # Указываем параметры для BostonHousing (или другой датасет по желанию)
     run_experiment(
         dataset_path="data/BostonHousing.csv",
         target_column="medv",
